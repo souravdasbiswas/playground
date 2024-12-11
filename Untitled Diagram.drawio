@@ -224,10 +224,61 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gB10NiKtLdSDlcrVGsYa" name="Page-4">
-    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C2Jbru6xf-J4VBDAcWRM-1" target="C2Jbru6xf-J4VBDAcWRM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C2Jbru6xf-J4VBDAcWRM-1" target="C2Jbru6xf-J4VBDAcWRM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-1" value="Root BU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-2" value="Retail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-4" value="PBG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-6" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Scenario 1 - Manager for the PBG Users are present in the Retail BU&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Scenario 2 - Manager for the Retails Users are present in the PBG BU&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="220" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-8" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;BU level read permission on customer (contact / account) and Lead (opportunity)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;The records are owned by the application user&lt;/li&gt;&lt;li style=&quot;&quot;&gt;user level write permission&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Approx. 15 cr. customer&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="339" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-9" value="Retail User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-12" value="PBG User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-16" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;User level read permission on the customer (contact / account) and lead (opportunity)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;However, the records are owned by application user&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user level write permission&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Approx. 70K customers&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-17" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;There&#39;re 5 RMs lookup on the customer record.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;These users are added to an access team. There&#39;s one access team per customer.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Access team has read / write permission.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Managers up to level 3 are added to the access team.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="471" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Requirement&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Manager on the user record can belong to any BU&lt;/span&gt;&lt;/li&gt;&lt;li&gt;In addition to the 5 RMs on the customer record, their managers should be able to have read permission on the customer record. This applicable up to level 3 hierarchy.&lt;/li&gt;&lt;li&gt;For the approval process, user should be able to select the manager, who can belong to different BU hierarchy.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Background&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;EY&#39;s Proposed Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Leave the PBG customer under the PBG BU as is.&lt;/li&gt;&lt;li&gt;Move the user under PBG BU to Retail BU. As a result, all the associated transactional records owned by the PBG user will be moved to the Retail BU.&lt;/li&gt;&lt;li&gt;The access teams on the PBG customers continue to remain the same.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Challenge in EY&#39;s Proposed Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;All the PBG customer related leads or activities will become visible to other Retail users.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;View level filter will not restrict the data in the Dataverse search or Suggestion API.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Any user can modify the filter criteria to view the PBG customer&#39;s related lead information.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="830" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recommendation&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Evaluate modernized business unit.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Do a POC such that the records owning BU remain PBG, and user belongs to the Retail BU and is given security role from PBG BU.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="440" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

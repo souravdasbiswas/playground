@@ -271,13 +271,16 @@
           <mxGeometry x="120" y="80" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C2Jbru6xf-J4VBDAcWRM-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;EY&#39;s Proposed Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Leave the PBG customer under the PBG BU as is.&lt;/li&gt;&lt;li&gt;Move the user under PBG BU to Retail BU. As a result, all the associated transactional records owned by the PBG user will be moved to the Retail BU.&lt;/li&gt;&lt;li&gt;The access teams on the PBG customers continue to remain the same.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="680" width="440" height="120" as="geometry" />
+          <mxGeometry x="120" y="663" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="C2Jbru6xf-J4VBDAcWRM-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Challenge in EY&#39;s Proposed Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;All the PBG customer related leads or activities will become visible to other Retail users.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;View level filter will not restrict the data in the Dataverse search or Suggestion API.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Any user can modify the filter criteria to view the PBG customer&#39;s related lead information.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="830" width="440" height="120" as="geometry" />
+          <mxGeometry x="120" y="808" width="440" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="C2Jbru6xf-J4VBDAcWRM-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recommendation&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Evaluate modernized business unit.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Do a POC such that the records owning BU remain PBG, and user belongs to the Retail BU and is given security role from PBG BU.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="970" width="440" height="120" as="geometry" />
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recommendation&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Evaluate modernized business unit, by enabling it in a POC environment.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Do a POC such that the transactional records owning BU remain PBG. User from PBG is moved to Retail BU. Create a PBG BU specific security role and give that specific security role from PBG BU to the user.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="952" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Jbru6xf-J4VBDAcWRM-40" value="PBG BU Design Discussion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="223" y="10" width="405" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
